@@ -100,11 +100,10 @@ const NavbarMain = () => {
                 }
                 id="services-nav-dropdown"
               >
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Social Media Marketing</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Quality Assurance</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Cloud and IoT Based Solutions</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>IT Consultancy</NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>AI Solutions</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Digital Cooperative Platform</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}> Farm Supplies </NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}> Financial Support </NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Market Hub</NavLink></NavDropdown.Item>
               </NavDropdown>
 
               {/* Registration Dropdown */}

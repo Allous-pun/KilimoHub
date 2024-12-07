@@ -1,48 +1,33 @@
-import seo from '../../assets/home/seo.png';
-import web from '../../assets/home/web.png';
+import { FaSeedling, FaCartPlus, FaHandshake, FaPiggyBank } from 'react-icons/fa'; // Importing icons
 
 const data = [
     {
         id: 1,
-        heading: 'SEO Service',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
+        heading: 'Digital Cooperative Platform',
+        content: 'A platform for managing farming cooperatives and connecting farmers with each other and the market.',
         to: '/',
-        icon: seo,
+        icon: <FaSeedling />, // Using FaSeedling icon for Digital Cooperative Platform
     },
     {
         id: 2,
-        heading: 'Web migration services',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
+        heading: 'Farm Input Sourcing & Bulk Purchasing',
+        content: 'Sourcing and bulk purchasing of essential farm inputs for better pricing and availability.',
         to: '/',
-        icon: web,
+        icon: <FaCartPlus />, // Using FaCartPlus icon for Farm Input Sourcing & Bulk Purchasing
     },
     {
         id: 3,
-        heading: 'Corporate Web Design',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
+        heading: 'Market Access & Produce Sales',
+        content: 'Connecting farmers to markets for easier and more profitable sales of their produce.',
         to: '/',
-        icon: seo,
+        icon: <FaHandshake />, // Using FaHandshake icon for Market Access & Produce Sales
     },
     {
         id: 4,
-        heading: 'E-Commerce System',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
+        heading: 'Financial Services (Microloans & Insurance)',
+        content: 'Providing microloans and insurance options to farmers for better financial stability.',
         to: '/',
-        icon: seo,
-    },
-    {
-        id: 5,
-        heading: 'Web Maintenance Service',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
-    },
-    {
-        id: 6,
-        heading: 'UI/UX Design',
-        content: 'Launch party pitch technology user experience innovator buzz stealth MVP business model.',
-        to: '/',
-        icon: seo,
+        icon: <FaPiggyBank />, // Using FaPiggyBank icon for Financial Services
     },
 ]
 

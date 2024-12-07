@@ -17,6 +17,14 @@
     width: 645px;
 }
 
+.icon {
+    font-size: 2rem; /* Adjust the icon size */
+    color: #228B22; /* Change color as needed */
+    margin-bottom: -70px; /* Adjust spacing */
+
+}
+
+
 @media screen and (max-width: 1200px) {
     .contain{
         margin-top: 80px;

@@ -1,56 +1,102 @@
-.contain{
+/* Services.module.css */
+.contain {
     margin-top: 83px;
     margin-bottom: 174px;
-}
-.cont{
+  }
+  
+  .cont {
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 20px;
-}
-.heading{
+  }
+  
+  .heading {
     font-size: 30px;
-    color: #ff4c0a;
+    color: #253d2c;
     font-weight: 500;
-}
-.subHeading{
+  }
+  
+  .subHeading {
     font-size: 34px;
     font-weight: bold;
     color: #222a41;
     width: 645px;
-}
+  }
+  
+  .serviceCard {
+    margin-bottom: 20px;
+    background-color: #ede8d0;
+  }
 
-@media screen and (max-width: 1200px) {
-    .cont{
-        padding-left: 30px;
-        padding-right: 30px;
+  .serviceCard:hover {
+    transform: scale(1.05); /* Scale up the card slightly */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .iconContainer {
+    font-size: 5rem; /* Set initial icon size */
+    color: #228b22;
+    margin-bottom: 1rem;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .arrowIcon {
+    font-size: 2rem;
+    color: #228b22;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .arrowIcon:hover {
+    transform: translateX(5px);
+    color: #2e6f40;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 1200px) {
+    .cont {
+      padding-left: 30px;
+      padding-right: 30px;
     }
-}
-
-@media screen and (max-width: 770px) {
-    .subHeading{
-        font-size: 25px;
-        width: auto;
+  }
+  
+  @media screen and (max-width: 770px) {
+    .subHeading {
+      font-size: 25px;
+      width: auto;
     }
-    .heading{
-        font-size: 20px;
+    .heading {
+      font-size: 20px;
     }
-}
-
-@media screen and (max-width: 430px) {
-    .subHeading{
-        font-size: 20px;
+  }
+  
+  @media screen and (max-width: 430px) {
+    .subHeading {
+      font-size: 20px;
     }
-    .heading{
-        font-size: 17px;
+    .heading {
+      font-size: 17px;
     }
-    .contain{
-        margin-top: 80px;
-        margin-bottom: 100px;
+    .contain {
+      margin-top: 80px;
+      margin-bottom: 100px;
     }
-}
-@media screen and (max-width: 380px) {
-    .cont{
-        padding-left: 10px;
-        padding-right: 10px;
+  }
+  
+  @media screen and (max-width: 380px) {
+    .cont {
+      padding-left: 10px;
+      padding-right: 10px;
     }
-}
+  }
+  
