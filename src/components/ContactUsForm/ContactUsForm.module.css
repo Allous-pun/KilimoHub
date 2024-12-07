@@ -62,6 +62,11 @@
     width: 160px;
     border-radius: 5px !important;
     margin-top: 37px;
+    background-color: #253d2c !important;
+}
+
+.btn:hover {
+    background-color: #2e6f40 !important;
 }
 
 @media screen and (max-width: 1200px) {
