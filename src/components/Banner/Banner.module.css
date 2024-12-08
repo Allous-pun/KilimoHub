@@ -1,79 +1,171 @@
+/* Container for the slider */
 .imgbox {
     height: 94vh;
-    background: url('../../assets/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100vw; /* Ensure it takes full viewport width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative; /* Prevent overlap with other components */
 }
-.center{
+
+/* Container that holds the slides */
+.slides-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+    width: 300%; /* 3 slides for 3 images */
+}
+
+/* Each slide (image) takes 100% width of the container */
+.slide {
+    width: 100vw; /* Each slide takes full width of the viewport */
+    height: 94vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Centered content container for text, description, and button */
+.center {
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    padding: 20px 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+    max-width: 80%; /* Limit width for better readability */
 }
-.text{
+
+/* Title text */
+.text {
     font-size: 67px;
-    /* width: 335px; */
-    color: #fff;
+    color: #fff; /* Contrast with background */
     font-weight: 400;
+    margin-bottom: 10px; /* Space below title */
 }
-.btn{
+
+/* Description text */
+.description {
+    font-size: 20px;
+    color: #f0f0f0; /* Light text for readability */
+    margin-bottom: 15px; /* Space below description */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Button styles */
+.btn {
     width: 272px;
     height: 64px;
     font-size: 14px;
+    font-weight: bold; /* Bold text */
+    color: #fff; /* White for contrast */
+    background-color: #253d2c !important;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    border: none; /* Remove default border */
+    border-radius: 10px !important; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    z-index: 2; /* Ensure above slider images */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
 }
 
+/* Hover effect for button */
+.btn:hover {
+    background-color: #2e6f40 !important; /* Highlighted green */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Focus state for button */
+.btn:focus {
+    outline: 2px solid #00bfff; /* Blue outline for accessibility */
+    outline-offset: 4px; /* Space between button and outline */
+}
+
+/* Navigation icons */
+.navIcon {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    font-size: 40px; /* Adjust icon size */
+    color: #fff; /* White for visibility */
+    cursor: pointer;
+    z-index: 2; /* Above images */
+    opacity: 0.8; /* Slight transparency */
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effect for navigation icons */
+.navIcon:hover {
+    opacity: 1;
+}
+
+/* Media Queries for responsiveness */
 @media screen and (max-width: 1266px) {
-    .text{
+    .text {
         font-size: 57px;
     }
-    .btn{
+    .btn {
         width: 250px;
         height: 58px;
     }
 }
 
 @media screen and (max-width: 1090px) {
-    .text{
+    .text {
         font-size: 47px;
     }
-    .btn{
+    .btn {
         width: 220px;
         height: 48px;
     }
 }
+
 @media screen and (max-width: 921px) {
-    .text{
+    .text {
         font-size: 37px;
     }
 }
+
 @media screen and (max-width: 715px) {
-    .text{
+    .text {
         font-size: 27px;
     }
-    .btn{
+    .btn {
         width: 160px;
         height: 38px;
     }
+    .center {
+        padding: 15px 20px; /* Adjust padding */
+    }
+    .description {
+        font-size: 16px; /* Smaller text */
+    }
 }
+
 @media screen and (max-width: 524px) {
-    .text{
+    .text {
         width: 100%;
     }
-    
-    .btn{
+    .btn {
         width: 140px;
         height: 36px;
         font-size: 12px;
     }
-    
 }
+
 @media screen and (max-width: 396px) {
-    .text{
+    .text {
         font-size: 20px;
     }
-    .btn{
+    .description {
+        font-size: 14px; /* Smaller description */
+    }
+    .btn {
         width: 110px;
+        height: 32px;
         font-size: 11px;
     }
 }

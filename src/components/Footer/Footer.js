@@ -8,16 +8,6 @@ import emailIcon from '../../assets/home/email-icon.png'; // Add email icon path
 const Footer = () => {
     return (
         <>
-            {/* Newsletter Section */}
-            <div className={styles.newsletter}>
-                <div className={styles.newsletterContent}>
-                    <h2 className={styles.newsletterText}>Stay Updated with Our Newsletter</h2>
-                    <a href="mailto:info@farmunity.com" className={styles.newsletterButton}>
-                        <img src={emailIcon} alt="Email Icon" className={styles.emailIcon} />
-                        Subscribe
-                    </a>
-                </div>
-            </div>
 
             {/* Footer Section */}
             <div style={{backgroundColor:'#253d2c', paddingTop:'89px', paddingBottom:'90px'}}>
@@ -52,17 +42,38 @@ const Footer = () => {
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.head}>Opening Hour</p>
+                            <p className={styles.head}>Working Hour</p>
                             <p className={styles.text}>Mon - Sat : 8:00 - 17:00</p>
                             <p className={styles.text}>Sun : Closed</p>
+
+                            {/* Newsletter Section */}
+                            <div className={styles.newsletter}>
+                                <div className={styles.newsletterContent}>
+                                    <h2 className={styles.newsletterText}>Our Newsletter</h2>
+                                    <a href="mailto:info@farmunity.com" className={styles.newsletterButton}>
+                                        <img src={emailIcon} alt="Email Icon" className={styles.emailIcon} />
+                                        Subscribe
+                                    </a>
+                                </div>
+                            </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
 
-            <div style={{backgroundColor: '#253d2c', borderTop: 'solid 1px #707070'}}>
-                <p className={styles.bottom}>Copyright © 2023. All rights reserved</p>
+            <div style={{ backgroundColor: '#253d2c', borderTop: 'solid 1px #707070', padding: '15px 0' }}>
+                <div className={styles.footerBottom}>
+                    <p className={styles.bottom}>Copyright © 2023. All rights reserved</p>
+                    <div className={styles.policyLinks}>
+                        <a href="/terms-of-use" className={styles.policyLink}>Terms of Use</a>
+                        <a href="/privacy-policy" className={styles.policyLink}>Privacy Policy</a>
+                    </div>
+                </div>
             </div>
+
         </>
     );
 }

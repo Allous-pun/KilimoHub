@@ -46,40 +46,38 @@
 }
 
 /* Newsletter Section Styles */
-.newsletter {
-    background-color: #68ba7f; /* Light Green Background */
-    padding: 30px 0;
-    text-align: center;
-    color: #fefefe;
-    position: relative;
-    z-index: 1;
-    border-bottom: 5px solid #253d2c; /* Dark Border */
-    margin-bottom: -5px; /* Overlap with footer */
-    width: 60%; /* Limit width of the newsletter */
-    margin-left: 300px;
-    margin-bottom: -30px;
-    border-radius: 10px;
+.newsletterContent {
+    display: flex; /* Enables flex layout */
+    justify-content: space-between; /* Adjust spacing between elements */
+    align-items: center; /* Aligns items vertically */
+    gap: 10px; /* Adds spacing between the <h2> and <a> */
+    width: 300px !important; /* Ensures the content uses full width */
+    margin: 0 auto;
+    background-color: #68ba7f;
+    margin-left: -10px !important;
+    margin-top: 10px !important;
 }
 
 .newsletterContent {
-    width: 60%; /* Limit width of the newsletter */
+    width: 80%; /* Adjusted width for a compact look */
     margin: 0 auto;
 }
 
 .newsletterText {
-    font-size: 24px;
+    font-size: 18px; /* Adjusted size for better fit */
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 0; /* Removes default margin */
+    margin-left: 10px !important;
 }
 
 .newsletterButton {
     background-color: #cfffdc;
     color: #333;
-    padding: 12px 25px;
+    padding: 8px 16px; /* Adjusted for compact size */
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
-    display: inline-flex;
+    font-size: 14px;
+    display: flex; /* Ensures the icon aligns properly */
     align-items: center;
 }
 
@@ -89,9 +87,9 @@
 }
 
 .emailIcon {
-    margin-right: 10px;
-    width: 50px; /* Email Icon Size */
-    height: 50px;
+    margin-right: 8px;
+    width: 30px; /* Adjusted icon size */
+    height: 30px;
 }
 
 /* Services List Style */
@@ -104,6 +102,45 @@
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between; /* Align copyright and links */
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    color: #fefefe;
+    font-size: 14px;
+    margin-right: 100px !important;
+    margin-left: 100px !important;
+}
+
+.policyLinks {
+    display: flex;
+    gap: 15px; /* Adds spacing between links */
+}
+
+.policyLink {
+    color: #cfffdc; /* Light green for links */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.policyLink:hover {
+    color: #bcd1c1; /* Slightly darker green on hover */
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .footerBottom {
+        flex-direction: column; /* Stack items on smaller screens */
+        text-align: center;
+    }
+
+    .policyLinks {
+        margin-top: 10px; /* Add spacing when stacked */
+    }
+}
+
 
 /* Responsive Styles */
 @media screen and (max-width: 992px){
