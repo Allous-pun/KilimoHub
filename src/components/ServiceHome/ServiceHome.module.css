@@ -28,10 +28,18 @@
 .to{
     cursor: pointer;
     top: 00px;
+    color: #228b22 !important; 
 }
 .to:hover{
     transform: scale(1.1);
 }
+
+.icon {
+    font-size: 3.5rem; /* Adjust the icon size */
+    color: #228b22; /* Change the color to match your theme */
+    margin-bottom: 20px; /* Add spacing below the icon */
+}
+
 
 @media screen and (max-width: 1000px) {
     .heading{

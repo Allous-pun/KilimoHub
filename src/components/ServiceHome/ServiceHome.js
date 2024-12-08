@@ -6,7 +6,8 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const ServiceHome = (props) => {
     return (
         <div className={`${styles.box} user-select-none`}>
-            <img src={props.icon} alt="" className={styles.img} />
+            {/* Render the icon directly as a React component */}
+            <div className={styles.icon}>{props.icon}</div>
             <p className={styles.heading}>{props.heading}</p>
             <p className={styles.text}>{props.content}</p>
             <Link to={`/individualService?id=${props.id}`}>
@@ -19,4 +20,5 @@ const ServiceHome = (props) => {
         </div>
     );
 };
+
 export default ServiceHome;
