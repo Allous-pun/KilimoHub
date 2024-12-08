@@ -4,7 +4,7 @@
 .heading{
     font-size: 30px;
     font-weight: 500;
-    color: #ff4c0a;
+    color: #253d2c;
     font-family: 'Poppins';
     text-align: left;
     font-weight: 500;
@@ -30,6 +30,10 @@
     width: 272px;
     height: 64px;
     font-size: 14px;
+    background-color: #253d2c !important;
+}
+.btn:hover{
+    background-color: #2e6f40 !important;
 }
 .text{
     margin-left: 50px;
