@@ -2,7 +2,7 @@
     font-size: 30px;
     font-family: 'Poppins';
     font-weight: 500;
-    color: #ff4c0a;
+    color: #253d2c;
     text-align: left;
     margin-bottom: 29px;
 }
@@ -27,6 +27,11 @@
 .btn{
     width: 272px;
     height: 64px;
+    background-color: #253d2c !important;
+}
+.btn:hover{
+    background-color: #2e6f40 !important;
+    color: #ffffff;
 }
 .contain{
     margin-top: 143px; 

@@ -31,6 +31,20 @@
     padding-bottom: 125px;
 }
 
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.05); /* Light background for the icons */
+    border-radius: 50%;
+    width: 80px; /* Adjust size to your preference */
+    height: 80px; /* Same as width for a perfect circle */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #253d2c !important;
+    margin-left: 180px;
+}
+
 @media screen and (max-width: 1000px) {
     .heading{
         font-size: 35px;
