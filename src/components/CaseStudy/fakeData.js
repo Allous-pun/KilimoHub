@@ -3,48 +3,55 @@ import img2 from '../../assets/caseStudy/2.png';
 import img3 from '../../assets/caseStudy/3.png';
 import img4 from '../../assets/caseStudy/4.png';
 
-const fakeData = [
+const farmUnityData = [
     {
         id: 1,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Digital Cooperative Tools',
+        title: 'Manage memberships, organize bulk purchases, and improve communication within your cooperative',
         img: img1,
-        category: 'financial'
+        category: 'cooperative tools',
+        features: [
+            'Easy-to-use member directory',
+            'Bulk order coordination',
+            'Group messaging and updates'
+        ]
     },
     {
         id: 2,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Online Marketplace for Produce',
+        title: 'Connect directly with buyers and sell your produce at competitive prices',
         img: img2,
-        category: 'human resources'
+        category: 'marketplace',
+        features: [
+            'Real-time pricing and demand insights',
+            'Secure transaction processing',
+            'Logistics support for delivery'
+        ]
     },
     {
         id: 3,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Microloans and Insurance',
+        title: 'Access financial support to grow your farm and protect against risks',
         img: img3,
-        category: 'start up'
+        category: 'financial services',
+        features: [
+            'Flexible repayment terms',
+            'Comprehensive crop insurance',
+            'Partnership with trusted financial institutions'
+        ]
     },
     {
         id: 4,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
+        designation: 'Bulk Input Purchasing',
+        title: 'Save money on seeds, fertilizers, and equipment by buying as a cooperative',
         img: img4,
-        category: 'strategy'
-    },
-    {
-        id: 5,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img1,
-        category: 'financial'
-    },
-    {
-        id: 6,
-        designation: 'Marketing, SEO',
-        title: 'Dicta Sunt Explicabo',
-        img: img2,
-        category: 'human resources'
+        category: 'bulk purchasing',
+        features: [
+            'Direct supplier partnerships',
+            'Discounts for group purchases',
+            'Convenient delivery options'
+        ]
     }
-]
-export default fakeData;
+];
+
+export default farmUnityData;

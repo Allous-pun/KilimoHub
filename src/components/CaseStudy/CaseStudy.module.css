@@ -5,7 +5,7 @@
     font-family: 'Poppins';
     font-size: 30px;
     font-weight: 500;
-    color: #ff4c0a;
+    color: #253d2c;
     margin-bottom: 13px;
 }
 .our{
@@ -19,7 +19,7 @@
     display: inline;
     font-size: 34px;
     font-weight: bold;
-    color: #ff4c0a;
+    color: #2e6f40;
 }
 .grp_btn{
     margin-top: 40px;
@@ -37,11 +37,11 @@
     cursor: pointer;
 }
 .filter:hover{
-    color: #ff4c0a;
+    color: #2e6f40;
     font-weight: bold;
 }
 .active{
-    color: #ff4c0a;
+    color: #2e6f40;
     font-weight: bold;
 }
 .img{
@@ -75,6 +75,18 @@
     padding-left: 30px;
     padding-bottom: 15px;
 }
+.comingSoonSection {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.comingSoonText {
+    font-size: 24px;
+    color: #228B22; /* Use the primary color or a different one */
+    font-weight: bold;
+}
+
+
 
 @media screen and (max-width: 992px) {
     .head{
