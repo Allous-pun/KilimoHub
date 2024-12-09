@@ -4,8 +4,8 @@ import fb from '../../assets/home/facebook.png';
 import linkdin from '../../assets/home/linkdin.png';
 import insta from '../../assets/home/insta.png';
 import emailIcon from '../../assets/home/email-icon.png'; // Add email icon path here
-import appleLogo from '/home/pundit/Desktop/FarmUnity/src/assets/home/apple-logo.png';
-import playStoreLogo from '/home/pundit/Desktop/FarmUnity/src/assets/home/Play-Store.png';
+import appleLogo from '../../assets/home/apple-logo.png';
+import playStoreLogo from '../../assets/home/Play-Store.png';
 
 
 const Footer = () => {
