@@ -129,6 +129,45 @@
     color: #bcd1c1; /* Slightly darker green on hover */
     text-decoration: underline;
 }
+.downloadApps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.downloadApps .text {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fefefe;
+}
+
+.appLinks {
+    display: flex;
+    gap: 15px; /* Space between the app icons */
+}
+
+.appIconWrapper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Ensure uniform size */
+    height: 80px; /* Ensure uniform size */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: solid 3px #68ba7f;
+}
+
+.appIconWrapper:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    background-color: #cfffdc; /* Light green background */
+}
+
+.appIcon {
+    width: 50px; /* Adjust image size inside the container */
+    height: auto;
+}
+
 
 @media screen and (max-width: 600px) {
     .footerBottom {

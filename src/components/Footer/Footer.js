@@ -4,6 +4,9 @@ import fb from '../../assets/home/facebook.png';
 import linkdin from '../../assets/home/linkdin.png';
 import insta from '../../assets/home/insta.png';
 import emailIcon from '../../assets/home/email-icon.png'; // Add email icon path here
+import appleLogo from '/home/pundit/Desktop/FarmUnity/src/assets/home/apple-logo.png';
+import playStoreLogo from '/home/pundit/Desktop/FarmUnity/src/assets/home/Play-Store.png';
+
 
 const Footer = () => {
     return (
@@ -16,6 +19,21 @@ const Footer = () => {
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.logo}>FarmUnity</p>
                             <p className={styles.text}>Empowering farmers through digital innovation</p>
+
+                            {/* Download Apps Section */}
+                            <div className={styles.downloadApps}>
+                                <p className={styles.text}>Download one of our apps:</p>
+                                <div className={styles.appLinks}>
+                                    <a href="/" className={styles.appIconWrapper}>
+                                        <img src={appleLogo} alt="Download on the App Store" className={styles.appIcon} />
+                                    </a>
+                                    <a href="/" className={styles.appIconWrapper}>
+                                        <img src={playStoreLogo} alt="Download on the Play Store" className={styles.appIcon} />
+                                    </a>
+                                </div>
+                            </div>
+
+
                             <div className={styles.social_logo}>
                                 <img src={fb} alt="Facebook" className={styles.img} />
                                 <img src={linkdin} alt="LinkedIn" className={styles.img} />
