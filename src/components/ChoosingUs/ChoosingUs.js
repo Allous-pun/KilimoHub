@@ -7,7 +7,7 @@ const ChoosingUs = () => {
         <div style={{ backgroundColor: '#fff1e5' }}>
             <div className="container overflow-hidden">
                 <p data-aos='slide-right' data-aos-offset="220" className={styles.heading}>
-                    Why Choose FarmUnity?
+                    Why Choose MazaoHub?
                 </p>
                 <p data-aos='slide-left' className={styles.sub_text}>
                     Empowering farmers through innovation, collaboration, and sustainability.

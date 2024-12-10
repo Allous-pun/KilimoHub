@@ -1,10 +1,10 @@
-import { FaSeedling, FaCartPlus, FaHandshake, FaPiggyBank } from 'react-icons/fa'; // Importing icons
+import { FaSeedling, FaCartPlus, FaHandshake, FaHeartbeat } from 'react-icons/fa'; // Importing icons
 
 const data = [
     {
         id: 1,
         heading: 'Digital Cooperative Platform',
-        content: 'A platform for managing farming cooperatives and connecting farmers with each other and the market.',
+        content: 'Enables small-scale farmers to access high-quality inputs at reduced prices through bulk purchasing.',
         to: '/',
         icon: <FaSeedling />, // Using FaSeedling icon for Digital Cooperative Platform
     },
@@ -24,10 +24,10 @@ const data = [
     },
     {
         id: 4,
-        heading: 'Financial Services (Microloans & Insurance)',
-        content: 'Providing microloans and insurance options to farmers for better financial stability.',
+        heading: 'Crop Diagnosis Service',
+        content: 'Scan your crops for pest issues, nutrient deficiencies, or disease signs, and receive expert advice on improving crop health.',
         to: '/',
-        icon: <FaPiggyBank />, // Using FaPiggyBank icon for Financial Services
+        icon: <FaHeartbeat />, // Using FaPiggyBank icon for Financial Services
     },
 ]
 

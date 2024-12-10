@@ -23,8 +23,8 @@ const CaseStudy = () => {
         <div className={`container ${styles.contain} overflow-hidden`}>
             <p className={styles.head} data-aos='slide-right'>WHAT WE DO</p>
             <div data-aos='slide-left'>
-                <p className={styles.our}>OUR CASE&nbsp;</p>
-                <p className={styles.study}>STUDIES</p>
+                <p className={styles.our}>MazaoHub &nbsp;</p>
+                <p className={styles.study}>Projects</p>
             </div>
 
             <div className={`${styles.grp_btn}`} data-aos='fade'>
@@ -32,7 +32,7 @@ const CaseStudy = () => {
                 <p onClick={() => { setData(farmUnityData); activeNav(0) }} className={`${styles.filter} ${active[0] ? styles.active : null}`}>ALL</p>
                 <p onClick={() => { filterData('cooperative tools'); activeNav(1) }} className={`${styles.filter} ${active[1] ? styles.active : null}`}>COOPERATIVE TOOLS</p>
                 <p onClick={() => { filterData('marketplace'); activeNav(2) }} className={`${styles.filter} ${active[2] ? styles.active : null}`}>MARKETPLACE</p>
-                <p onClick={() => { filterData('financial services'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>FINANCIAL SERVICES</p>
+                <p onClick={() => { filterData('crop diagnosis'); activeNav(3) }} className={`${styles.filter} ${active[3] ? styles.active : null}`}>CROP DIAGNOSIS</p>
                 <p onClick={() => { filterData('bulk purchasing'); activeNav(4) }} className={`${styles.filter} ${active[4] ? styles.active : null}`}>BULK PURCHASING</p>
             </div>
 

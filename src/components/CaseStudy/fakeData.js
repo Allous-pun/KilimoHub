@@ -30,10 +30,10 @@ const farmUnityData = [
     },
     {
         id: 3,
-        designation: 'Microloans and Insurance',
-        title: 'Access financial support to grow your farm and protect against risks',
+        designation: 'Crop Diagnosis Service',
+        title: 'Scan your crops for pest issues, nutrient deficiencies, or disease signs, and receive expert advice on improving crop health.',
         img: img3,
-        category: 'financial services',
+        category: 'crop diagnosis',
         features: [
             'Flexible repayment terms',
             'Comprehensive crop insurance',
