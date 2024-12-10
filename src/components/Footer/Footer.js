@@ -17,8 +17,10 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>FarmUnity</p>
-                            <p className={styles.text}>Empowering farmers through digital innovation</p>
+                            <p className={styles.logo}>MazaoHub</p>
+                            <p className={styles.text}>
+                            MazaoHub is Kenya’s premier digital platform empowering small-scale farmers to thrive. We connect farmers with trusted suppliers, diagnostic tools, and markets, fostering collaboration and sustainable growth. Join us as we transform agriculture, one harvest at a time.
+                            </p>
 
                             {/* Download Apps Section */}
                             <div className={styles.downloadApps}>
@@ -33,12 +35,6 @@ const Footer = () => {
                                 </div>
                             </div>
 
-
-                            <div className={styles.social_logo}>
-                                <img src={fb} alt="Facebook" className={styles.img} />
-                                <img src={linkdin} alt="LinkedIn" className={styles.img} />
-                                <img src={insta} alt="Instagram" className={styles.img} />
-                            </div>
                         </div>
 
                         {/* Updated Services Column */}
@@ -72,6 +68,12 @@ const Footer = () => {
                                         <img src={emailIcon} alt="Email Icon" className={styles.emailIcon} />
                                         Subscribe
                                     </a>
+                                </div>
+
+                                <div className={styles.social_logo}>
+                                    <img src={fb} alt="Facebook" className={styles.img} />
+                                    <img src={linkdin} alt="LinkedIn" className={styles.img} />
+                                    <img src={insta} alt="Instagram" className={styles.img} />
                                 </div>
                             </div>
                         </div>

@@ -31,8 +31,10 @@
     font-size: 40px !important;
 }
 .logoImage {
-  width: 150px; /* Adjust this size */
+  width: 300px; /* Adjust this size */
   height: auto;
+  margin-top: -5px !important;
+  margin-bottom: -5px !important;
 }
 .dropdownText{
     text-decoration: none;
