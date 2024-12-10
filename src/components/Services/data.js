@@ -1,10 +1,10 @@
-import { FaSeedling, FaCartPlus, FaHandshake, FaPiggyBank } from 'react-icons/fa'; // Importing icons
+import { FaSeedling, FaCartPlus, FaHandshake, FaHeartbeat } from 'react-icons/fa'; // Importing icons
 
 const data = [
     {
         id: 1,
         heading: 'Digital Cooperative Platform',
-        content: 'A platform for managing farming cooperatives and connecting farmers with each other and the market.',
+        content: 'Enables small-scale farmers to access high-quality inputs at reduced prices through bulk purchasing.',
         to: '/',
         icon: <FaSeedling />, // Using FaSeedling icon for Digital Cooperative Platform
         contents: [
@@ -21,7 +21,7 @@ const data = [
     {
         id: 2,
         heading: 'Farm Input Sourcing & Bulk Purchasing',
-        content: 'Sourcing and bulk purchasing of essential farm inputs for better pricing and availability.',
+        content: 'Save costs and improve efficiency by sourcing quality inputs like seeds and fertilizers at bulk rates through MazaoHub.',
         to: '/',
         icon: <FaCartPlus />, // Using FaCartPlus icon for Farm Input Sourcing & Bulk Purchasing
         contents: [
@@ -38,7 +38,7 @@ const data = [
     {
         id: 3,
         heading: 'Market Access & Produce Sales',
-        content: 'Connecting farmers to markets for easier and more profitable sales of their produce.',
+        content: 'Connect directly with buyers to ensure fair pricing and eliminate intermediaries, maximizing your profits.',
         to: '/',
         icon: <FaHandshake />, // Using FaHandshake icon for Market Access & Produce Sales
         contents: [
@@ -54,10 +54,10 @@ const data = [
     },
     {
         id: 4,
-        heading: 'Financial Services (Microloans & Insurance)',
-        content: 'Providing microloans and insurance options to farmers for better financial stability.',
+        heading: 'Crop Diagnosis Service',
+        content: 'Scan your crops for pest issues, nutrient deficiencies, or disease signs, and receive expert advice on improving crop health.',
         to: '/',
-        icon: <FaPiggyBank />, // Using FaPiggyBank icon for Financial Services
+        icon: <FaHeartbeat />, // Using FaPiggyBank icon for Financial Services
         contents: [
             {
                 heading: 'Microloans for Farmers',
