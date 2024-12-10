@@ -1,5 +1,7 @@
 .contain{
     padding-bottom: 130px;
+    margin-top: -180px;
+    margin-bottom: -50px;
 }
 .row{
     margin-top: 130px !important;
@@ -22,9 +24,11 @@
     margin-left: 150px;
 }
 .img{
-    width: 100%;
-    height: auto;
-    margin-left: -150px;
+    width: 500px;
+    height: 650px;
+    margin-left: 135px;
+    margin-top: 120px;
+    border-radius: 10px;
 }
 .head1{
     font-family: 'Poppins';
@@ -32,7 +36,7 @@
     font-weight: bold;
     color: #253d2c;
     text-align: left;
-    margin-top: 135px;
+    margin-top: -90px;
 }
 .content1{
     font-family: 'Poppins';
@@ -43,9 +47,10 @@
     margin-right: 100px;
 }
 .img1{
-    width: 100%;
-    height: auto;
-    margin-left: 90px;
+    width: 500px;
+    height: 600px;
+    margin-left: -90px;
+    margin-top: -50px;
 }
 
 @media screen and (max-width: 992px) {
