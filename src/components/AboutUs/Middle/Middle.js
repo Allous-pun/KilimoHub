@@ -1,16 +1,18 @@
 import React from "react";
 import styles from './Middle.module.css';
-import { FaSeedling, FaCartPlus, FaHandshake, FaPiggyBank } from 'react-icons/fa'; // Importing icons
+import { FaSeedling, FaCartPlus, FaHandshake, FaHeartbeat } from 'react-icons/fa'; // Updated icon import
 
 const Middle = () => {
     return (
         <div style={{ backgroundColor: '#f8f8f8' }} className='overflow-hidden'>
             <div className={`container ${styles.contain}`}>
                 <p data-aos='fade-down-right' data-aos-offset="170" className={styles.mainHead}>
-                    Discover the Future of Agriculture with FarmUnity
+                    Discover the Future of Agriculture with MazaoHub
                 </p>
                 <p data-aos='fade-up-left' data-aos-offset="170" className={styles.mainContent}>
-                    FarmUnity empowers small-scale farmers with innovative solutions, transforming the agricultural landscape through collaboration, technology, and sustainability. Explore our core services that enable farmers to thrive in the modern agricultural ecosystem.
+                    MazaoHub empowers small-scale farmers with innovative solutions, transforming the agricultural landscape 
+                    through collaboration, technology, and sustainability. 
+                    Explore our core services that enable farmers to thrive in the modern agricultural ecosystem.
                 </p>
 
                 <div className="row">
@@ -18,9 +20,9 @@ const Middle = () => {
                     <div data-aos='fade-right' data-aos-offset="170" className="col-md-3">
                         <div className={styles.box}>
                             <FaSeedling className={styles.icon} />
-                            <p className={styles.head}>Digital Cooperative Platform</p>
+                            <p className={styles.head}>Enhanced Digital Cooperative Platform</p>
                             <p className={styles.content}>
-                                Join forces with fellow farmers to leverage collective strength, share resources, and access essential agricultural services.
+                                Enables small-scale farmers to access high-quality inputs at reduced prices through bulk purchasing.
                             </p>
                         </div>
                     </div>
@@ -31,7 +33,7 @@ const Middle = () => {
                             <FaCartPlus className={styles.icon} />
                             <p className={styles.head}>Farm Input Sourcing & Bulk Purchasing</p>
                             <p className={styles.content}>
-                                Save costs and improve efficiency by sourcing quality inputs like seeds and fertilizers at bulk rates through FarmUnity.
+                                Save costs and improve efficiency by sourcing quality inputs like seeds and fertilizers at bulk rates through MazaoHub.
                             </p>
                         </div>
                     </div>
@@ -47,13 +49,13 @@ const Middle = () => {
                         </div>
                     </div>
 
-                    {/* Financial Services */}
+                    {/* Crop Diagnosis Service */}
                     <div data-aos='fade-left' className="col-md-3">
                         <div className={styles.box}>
-                            <FaPiggyBank className={styles.icon} />
-                            <p className={styles.head}>Financial Services</p>
+                            <FaHeartbeat className={styles.icon} />
+                            <p className={styles.head}>Crop Diagnosis Service</p>
                             <p className={styles.content}>
-                                Access tailored microloans, insurance plans, and savings solutions designed to support your agricultural journey.
+                                Scan your crops for pest issues, nutrient deficiencies, or disease signs, and receive expert advice on improving crop health.
                             </p>
                         </div>
                     </div>

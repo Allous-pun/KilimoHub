@@ -9,6 +9,7 @@
     font-weight: bold;
     color: #253d2c;
     margin-bottom: 30px;
+    margin-top: -100px;
 }
 .mainContent{
     font-family: 'Poppins';
@@ -21,6 +22,8 @@
     border: solid 3px rgba(46,111,64);
     border-radius: 10px;
     padding: 40px 27px 55.4px 28px;
+    margin-top: -70px;
+    margin-bottom: -50px;
 }
 .head{
     font-family: 'Poppins';
