@@ -11,7 +11,7 @@
 .heading_content{
     font-size: 18px;
     font-family: 'Poppins';
-    color: #444554;
+    color: #212121;
     margin-bottom: 0px;
 }
 .logo_head{
@@ -20,11 +20,10 @@
     margin-top: 35px;
     margin-bottom: 21px;
 }
-.img{
-    margin-top: 67px;
-}
+
 .contentImg{
     width: 80%;
+    border-radius: 10px;
 }
 .subHead{
     margin-top: 60px;
@@ -34,6 +33,35 @@
 .justify{
     text-align: justify;
 }
+/* General styles for icons */
+.icon {
+    font-size: 3rem; /* Adjust icon size */
+    color: #228B22; /* Primary color for the icons (Forest Green) */
+    margin-bottom: 1rem; /* Add spacing below the icon */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    margin-top: 70px;
+}
+
+.icon:hover {
+    color: #00BFFF; /* Accent color for hover (Electric Blue) */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Placeholder for alternating content icons */
+.contentIcon {
+    font-size: 5rem; /* Larger size for alternating content icons */
+    color: #F5F5DC; /* Secondary color (Light Beige) for a softer tone */
+    margin: 0 auto; /* Center the icon */
+    display: block; /* Ensures block alignment */
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contentIcon:hover {
+    color: #228B22; /* Primary color on hover */
+    transform: rotate(15deg) scale(1.1); /* Fun hover effect with rotation */
+}
+
 
 @media screen and (max-width:1200px){
     .contentImg{

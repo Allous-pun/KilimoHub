@@ -20,7 +20,7 @@ const AboutUsHome = () => {
                             </p>
                         </div>
                         <div data-aos="zoom-in" style={{ textAlign: 'left' }}>
-                            <button className={`btn custom_btn ${styles.btn}`}> JOIN OUR COMMUNITY</button>
+                            <button className={`btn custom_btn ${styles.btn}`}> OUR TEAM </button>
                         </div>
                     </div>
 
