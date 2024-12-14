@@ -6,7 +6,7 @@
 }
 .title{
     font-size: 30px;
-    color: #ff4c0a;
+    color: #253d2c;
     font-weight: 500;
     text-align: left;
     margin-top: 60px;
@@ -19,7 +19,7 @@
 }
 .subHead{
     font-size: 18px;
-    color: #6f6d71;
+    color: #2e6f40;
     text-align: left;
 }
 .card{
@@ -67,7 +67,7 @@
     font-size: 18px;
     text-align: left;
     padding-right: 60px;
-    color: #6f6d71;
+    color: #253d2c;
     line-height: 1.68;
 }
 .pImg{
@@ -78,7 +78,7 @@
 .summary{
     font-size: 18px;
     text-align: left;
-    color: #6f6d71;
+    color: #253d2c;
     line-height: 1.68;
 }
 .pTitle{

@@ -11,10 +11,10 @@ const Real = () => {
                 </div>
                 <div className="col-md-6">
                     <div className={styles.text}>
-                        <p data-aos='slide-right' data-aos-offset="150" className={styles.heading}>MazaoHub</p>
+                        <p data-aos='slide-right' data-aos-offset="150" className={styles.heading}>KilimoHubHub</p>
                         <p data-aos='slide-left' data-aos-offset="150" className={styles.subHeading}>Empowering Farmers, Building Communities</p>
                         <p data-aos='zoom-in' data-aos-offset="150" className={styles.content}>
-                            MazaoHub transforms agriculture by connecting farmers to resources, markets. 
+                            KilimoHub transforms agriculture by connecting farmers to resources, markets. 
                             Our platform promotes collaborative farming, sustainable practices, and innovative technology 
                             to help farmers maximize yields, reduce costs, and thrive in a competitive market.
                         </p>
