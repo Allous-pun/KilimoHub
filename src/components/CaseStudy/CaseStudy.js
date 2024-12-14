@@ -23,7 +23,7 @@ const CaseStudy = () => {
         <div className={`container ${styles.contain} overflow-hidden`}>
             <p className={styles.head} data-aos='slide-right'>WHAT WE DO</p>
             <div data-aos='slide-left'>
-                <p className={styles.our}>MazaoHub &nbsp;</p>
+                <p className={styles.our}>KilimoHub &nbsp;</p>
                 <p className={styles.study}>Projects</p>
             </div>
 

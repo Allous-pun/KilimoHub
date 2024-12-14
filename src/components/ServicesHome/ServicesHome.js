@@ -7,7 +7,7 @@ const ServicesHome = () => {
     return (
         <div className={`container ${styles.contain} overflow-hidden pb-4`}>
             <p data-aos="slide-right" className={styles.heading}>
-                MazaoHub Services
+                KilimoHub Services
             </p>
             <div>
                 <p

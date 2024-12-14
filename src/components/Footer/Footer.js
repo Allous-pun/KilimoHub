@@ -17,9 +17,9 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>MazaoHub</p>
+                            <p className={styles.logo}>KilimoHub</p>
                             <p className={styles.text}>
-                            MazaoHub is Kenya’s premier digital platform empowering small-scale farmers to thrive. We connect farmers with trusted suppliers, diagnostic tools, and markets, fostering collaboration and sustainable growth. Join us as we transform agriculture, one harvest at a time.
+                                <b>KilimoHub</b> is Kenya’s premier digital platform empowering small-scale farmers to thrive. We connect farmers with trusted suppliers, diagnostic tools, and markets, fostering collaboration and sustainable growth. Join us as we transform agriculture, one harvest at a time.
                             </p>
 
                             {/* Download Apps Section */}
@@ -50,9 +50,9 @@ const Footer = () => {
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Head Office</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>4517 Nairobi, Kenya</p>
+                            <p className={styles.text}>info@kilimohub.com</p>
+                            <p className={styles.text}>(254) 759 638946</p>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
@@ -86,9 +86,9 @@ const Footer = () => {
 
             <div style={{ backgroundColor: '#253d2c', borderTop: 'solid 1px #707070', padding: '15px 0' }}>
                 <div className={styles.footerBottom}>
-                    <p className={styles.bottom}>Copyright © 2023. All rights reserved</p>
+                    <p className={styles.bottom}>Copyright © 2023.  KilimoHub  All rights reserved</p>
                     <div className={styles.policyLinks}>
-                        <a href="/terms-of-use" className={styles.policyLink}>Terms of Use</a>
+                        <a href="/terms-of-use" className={styles.policyLink}>Terms of Services</a>
                         <a href="/privacy-policy" className={styles.policyLink}>Privacy Policy</a>
                     </div>
                 </div>

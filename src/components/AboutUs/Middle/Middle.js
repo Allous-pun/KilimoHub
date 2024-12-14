@@ -7,10 +7,10 @@ const Middle = () => {
         <div style={{ backgroundColor: '#f8f8f8' }} className='overflow-hidden'>
             <div className={`container ${styles.contain}`}>
                 <p data-aos='fade-down-right' data-aos-offset="170" className={styles.mainHead}>
-                    Discover the Future of Agriculture with MazaoHub
+                    Discover the Future of Agriculture with KilimoHub
                 </p>
                 <p data-aos='fade-up-left' data-aos-offset="170" className={styles.mainContent}>
-                    MazaoHub empowers small-scale farmers with innovative solutions, transforming the agricultural landscape 
+                    KilimoHub empowers small-scale farmers with innovative solutions, transforming the agricultural landscape 
                     through collaboration, technology, and sustainability. 
                     Explore our core services that enable farmers to thrive in the modern agricultural ecosystem.
                 </p>
