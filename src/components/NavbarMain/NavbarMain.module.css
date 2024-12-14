@@ -33,8 +33,8 @@
 .logoImage {
   width: 300px; /* Adjust this size */
   height: auto;
-  margin-top: -5px !important;
-  margin-bottom: -5px !important;
+  margin-top: -75px !important;
+  margin-bottom: -75px !important;
 }
 .dropdownText{
     text-decoration: none;

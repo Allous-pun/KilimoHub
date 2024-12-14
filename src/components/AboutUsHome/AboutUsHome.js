@@ -14,7 +14,7 @@ const AboutUsHome = () => {
                         <p data-aos="slide-left" className={styles.heading}>Empowering Farmers through Digital Innovation</p>
                         <div data-aos="zoom-in">
                             <p className={styles.content}>
-                                MazaoHub is a digital farming cooperative platform dedicated to revolutionizing agriculture through technology. 
+                                KilimoHub is a digital farming cooperative platform dedicated to revolutionizing agriculture through technology. 
                                 With a commitment to sustainability and innovation, we bring farmers together to achieve more—whether it’s sourcing quality inputs, accessing financial services, or selling produce in competitive markets.
                                 Our mission is to empower farming communities with the tools, knowledge, and support they need to thrive in a rapidly evolving agricultural landscape.
                             </p>
