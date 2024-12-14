@@ -15,13 +15,7 @@ const data = [
         to: '/',
         icon: <FaCartPlus />, // Using FaCartPlus icon for Farm Input Sourcing & Bulk Purchasing
     },
-    {
-        id: 3,
-        heading: 'Market Access & Produce Sales',
-        content: 'Connecting farmers to markets for easier and more profitable sales of their produce.',
-        to: '/',
-        icon: <FaHandshake />, // Using FaHandshake icon for Market Access & Produce Sales
-    },
+    
     {
         id: 4,
         heading: 'Crop Diagnosis Service',

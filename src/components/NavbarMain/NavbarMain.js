@@ -103,7 +103,7 @@ const NavbarMain = () => {
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/sMediaService" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Digital Cooperative Platform</NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}> Farm Supplies </NavLink></NavDropdown.Item>
                 <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}> Crop Diagnosis </NavLink></NavDropdown.Item>
-                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Market Hub</NavLink></NavDropdown.Item>
+                <NavDropdown.Item className={styles.dropdownItem}><NavLink to="/hello" onClick={() => { handleActiveNav(2); closeNav() }} className={styles.dropdownText}>Messages & Chats</NavLink></NavDropdown.Item>
               </NavDropdown>
 
               {/* Registration Dropdown */}

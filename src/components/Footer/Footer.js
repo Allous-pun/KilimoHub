@@ -43,7 +43,6 @@ const Footer = () => {
                             <ul className={styles.serviceList}>
                                 <li className={styles.text}>Digital Cooperative Platform</li>
                                 <li className={styles.text}>Farm Input Sourcing & Bulk Purchasing</li>
-                                <li className={styles.text}>Market Access & Produce Sales</li>
                                 <li className={styles.text}>Crop Diagnosis Services</li>
                             </ul>
                         </div>
