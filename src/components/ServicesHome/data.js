@@ -1,4 +1,4 @@
-import { FaSeedling, FaCartPlus, FaHandshake, FaHeartbeat } from 'react-icons/fa'; // Importing icons
+import { FaSeedling, FaCartPlus, FaHeartbeat } from 'react-icons/fa'; // Importing icons
 
 const data = [
     {

@@ -1,0 +1,52 @@
+.cropDiagnosisContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .weatherSection,
+  .knowledgeHubSection {
+    width: 48%; /* Adjust based on your preference */
+  }
+  
+  .middleSection {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .bottomSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .cropUtilitySection,
+  .marketInsightSection,
+  .farmingTipsSection {
+    width: 32%; /* Adjust based on your preference */
+  }
+  
+  @media (max-width: 768px) {
+    .topSection,
+    .bottomSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .weatherSection,
+    .knowledgeHubSection,
+    .cropUtilitySection,
+    .marketInsightSection,
+    .farmingTipsSection {
+      width: 100%;
+    }
+  }
+  

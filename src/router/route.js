@@ -8,7 +8,7 @@ import SMediaService from '../views/sMediaService';
 import SignUp from '../views/registration/signup/signup';
 import Login from '../views/registration/login/Login';  
 import ForgotPassword from '../views/registration/forgot-password/ForgotPassword';
- 
+import CropDiagnosisHome from "../views/CropDiagnosis";
 
 const routes = [
     {
@@ -51,6 +51,10 @@ const routes = [
         components: <ForgotPassword />,  
         to: '/forgot-password'  
     },
+    {
+        components: <CropDiagnosisHome />,  // Reference the new CropDiagnosisHome view
+        to: '/crop-diagnosis'               // Define its route
+      },
 ];
 
 export default routes;
