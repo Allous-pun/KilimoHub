@@ -1,5 +1,6 @@
 import React from 'react';
 import Weather from './Weather/Weather'; // Ensure correct path to Weather component
+import KnowledgeHub from './KnowledgeHub/KnowledgeHub'; // Import KnowledgeHub component
 import styles from './CropDiagnosis.module.css'; // Import the CSS module for styling
 
 const CropDiagnosis = () => {
@@ -10,9 +11,9 @@ const CropDiagnosis = () => {
         <div className={styles.weatherSection}>
           <Weather />
         </div>
-        {/* Placeholder for other sections */}
+        {/* Replace placeholder with KnowledgeHub */}
         <div className={styles.knowledgeHubSection}>
-          <div>Knowledge Hub Component Placeholder</div>
+          <KnowledgeHub />
         </div>
       </div>
 
