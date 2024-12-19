@@ -2,7 +2,7 @@ import React from "react";
 import SubBanner from '../../components/SubBanner';
 import CropDiagnosis from '../../components/CropDiagnosis/CropDiagnosis'; // Import the CropDiagnosis component
 import Footer from "../../components/Footer";
-import bg from '../../assets/subBanner.jpg'; // You can reuse the same banner image, or customize as needed
+import bg from '../../assets/cropdiagnosis.jpg'; // You can reuse the same banner image, or customize as needed
 
 const CropDiagnosisHome = () => {
   return (

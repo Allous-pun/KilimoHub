@@ -1,6 +1,9 @@
+// src/components/CropDiagnosis/CropDiagnosis.js
+
 import React from 'react';
 import Weather from './Weather/Weather'; // Ensure correct path to Weather component
 import KnowledgeHub from './KnowledgeHub/KnowledgeHub'; // Import KnowledgeHub component
+import CropDiagnosisMain from './Diagnosis/Diagnosis'; // Renamed the component to CropDiagnosisMain
 import styles from './CropDiagnosis.module.css'; // Import the CSS module for styling
 
 const CropDiagnosis = () => {
@@ -18,13 +21,8 @@ const CropDiagnosis = () => {
       </div>
 
       {/* Other sections can remain as placeholders */}
-      <div>
-        <div>Diagnosis Component Placeholder</div>
-      </div>
-      <div>
-        <div>Crop Utility Component Placeholder</div>
-        <div>Market Insight Component Placeholder</div>
-        <div>Farming Tips Component Placeholder</div>
+      <div className={styles.knowledgeHubSection}>
+        <CropDiagnosisMain /> {/* Updated the component name here */}
       </div>
     </div>
   );

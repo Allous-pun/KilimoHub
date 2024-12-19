@@ -2,7 +2,7 @@ import React from "react";
 import SubBanner from '../../components/SubBanner';
 import Services from '../../components/Services';
 import Footer from "../../components/Footer";
-import bg from '../../assets/subBanner.jpg';
+import bg from '../../assets/servicebanner.jpg';
 
 const ServicesHome = () => {
 

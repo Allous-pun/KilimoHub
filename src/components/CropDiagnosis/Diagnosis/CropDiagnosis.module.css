@@ -1,0 +1,16 @@
+/* CropDiagnosis.module.css */
+
+.diagnosis-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .upload-button {
+    margin-top: 10px;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
