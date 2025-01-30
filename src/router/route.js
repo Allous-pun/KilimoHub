@@ -4,7 +4,7 @@ import ContactUs from '../views/contactUs';
 import IndividualService from "../views/individualService";
 import AboutUs from '../views/aboutUs';
 import ProjectDetails from "../views/projectDetails";
-import SMediaService from '../views/sMediaService';
+import DigitalCooperative from '../views/digital-cooperative';
 import SignUp from '../views/registration/signup/signup';
 import Login from '../views/registration/login/Login';  
 import ForgotPassword from '../views/registration/forgot-password/ForgotPassword';
@@ -36,8 +36,8 @@ const routes = [
         to: '/projectDetails'
     },
     {
-        components: <SMediaService />,
-        to: '/sMediaService'
+        components: <DigitalCooperative />,
+        to: '/digital-cooperative'
     },
     {
         components: <SignUp />,  

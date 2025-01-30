@@ -1,0 +1,400 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 100%;
+    height: auto;
+}
+.topContain{
+    padding-left: 120px;
+    padding-right: 50px;
+    background-color: #f6fafb;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+.headTop{
+    font-family: 'Poppins';
+    font-size: 35px;
+    color: #212121;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 0px;
+}
+.identityTop{
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #111111;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #111;
+    /* width: 100%; */
+    text-align: left;
+    line-height: 1.3;
+}
+
+.contain{
+    margin-top: 150px !important;
+    margin-bottom: 150px;
+}
+.heading{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+.text{
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: left;
+    color: #444554;
+    width: 350px;
+}
+.bottomContain{
+    padding-left: 80px !important;
+}
+.heading1{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -20px;
+}
+.text1{
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-align: left;
+    color: #444554;
+    width: 400px;
+}
+
+/*---hero---*/
+
+.ctaButtons {
+    display: flex;
+    gap: 15px; /* Adds spacing between buttons */
+    margin-top: 20px;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #2e6f40 !important; /* Primary button color */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.ctaButton:hover {
+    background-color: #68ba7f !important; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale-up effect */
+    cursor: pointer; /* Change cursor to pointer when hovering over */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a slight drop shadow */
+    color: white;
+}
+
+.ctaButton:active {
+    transform: scale(0.98); /* Press-down effect */
+}
+
+/*---about---*/
+
+.benefitsList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.benefitsList li {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.infographic {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.infographicTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.processFlow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*--how it works--*/
+
+.stepsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.step {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stepIcon {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.stepTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stepDescription {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/*--features & benefit--*/
+
+.featuresList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.featuresList li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.featureIcon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/*--call to action--*/
+.ctaButtonGreen {
+    display: inline-block;
+    background-color: #2e6f40 !important; /* Green */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ctaButtonBlue {
+    display: inline-block;
+    background-color: #00f0ff !important; /* Blue */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ctaButtonGreen:hover {
+    background-color: #68ba7f !important;
+    color: white;
+}
+
+.ctaButtonBlue:hover {
+    background-color: #00a7b3 !important;
+    color: white;
+}
+
+/*--faqs--*/
+
+.faqSection {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.faqTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faqContainer {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.faqItem {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faqQuestion {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faqQuestion:hover {
+    background: #ececec;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.faqAnswer {
+    padding: 15px;
+    background: white;
+    font-size: 16px;
+    color: #333;
+    border-top: 1px solid #ddd;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .topContain{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .topContain{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .topContain{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .topContain{
+        padding-left: 90px;
+    }
+    .headTop{
+        font-size: 30px;
+    }
+    .identityTop{
+        font-size: 22px;
+    }
+    .content{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1030px) {
+    .img1{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .topContain{
+        padding-left: 70px;
+    }
+    .bottomContain{
+        padding-left: 50px !important;
+    }
+    .text1{
+        width: 100%;
+    }
+    .img1{
+        margin-top: 20px;
+    }
+    .img2{
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 962px) {
+    .img1{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .img1{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .topContain{
+        margin-top: 0px;
+    }
+    .img2{
+        padding-top: 0px;
+    }
+    .text{
+        width: 100%;
+    }
+    .img1{
+        margin-top: -50px !important;
+    }
+    .contain{
+        margin-top: 50px !important;
+        margin-bottom: 50px;
+    }
+    .heading{
+        margin-top: 20px;
+    }
+    .heading1{
+        margin-top: 20px;
+    }
+    .middleContain{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .topContain{
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .middleContain{
+        padding-left: 50px !important;
+    }
+    .img1{
+        margin-top: 50px;
+    }
+}
