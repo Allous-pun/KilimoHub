@@ -31,7 +31,14 @@
   .cropUtilitySection,
   .marketInsightSection,
   .farmingTipsSection {
-    width: 32%; /* Adjust based on your preference */
+    width: 70%; /* Adjust based on your preference */
+  }
+
+  .farmingTipsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
   }
   
   @media (max-width: 768px) {
